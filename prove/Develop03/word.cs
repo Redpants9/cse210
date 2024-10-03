@@ -1,5 +1,5 @@
-public class word{
+public class Word{
     private string _text;
     private bool _ishidden;
-    
+
 }

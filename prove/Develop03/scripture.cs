@@ -1,4 +1,4 @@
-public class scripture{
-    private reference _reference;
+public class Scripture{
+    private Reference _reference;
     private List<string> _words;
 }
