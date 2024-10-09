@@ -1,21 +1,21 @@
 using System.Diagnostics;
 
-public class fraction
+public class Fraction
 {
     private int _top;
     private int _bottom;
 
-    public fraction()
+    public Fraction()
     {
         _top = 1;
         _bottom = 1;
     }
-    public fraction(int wholenumber)
+    public Fraction(int wholenumber)
     {
         _top = wholenumber;
         _bottom = 1;
     }
-    public fraction(int top, int bottom)
+    public Fraction(int top, int bottom)
     {
         _top = top;
         _bottom = bottom;
