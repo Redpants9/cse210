@@ -5,7 +5,7 @@ public class Entry{
 
     public void Display()
     {
-        Console.WriteLine($"Date:{date}-Promt:{promptText}");
+        Console.WriteLine($"Date: {date} - Prompt: {promptText}");
         Console.WriteLine($"{entryText}");
     }
 }
