@@ -1,13 +1,20 @@
-using System.Reflection;
+using System.Dynamic;
 
 public class Video{
     private string title;
     private string author;
     private int length;
 
-    public string fullvid()
+    List<Comment> comments = new List<Comment>();
+    public void fullvid()
     {
-        return $"{title}:{author},{length}Seconds";
+        Console.WriteLine($"{title}:{author},{length}Seconds");
     }
-
+    public void displaycomment()
+    {
+        foreach(Comment comment in comments) 
+        {
+            comment.display();
+        }
+    }    
 }

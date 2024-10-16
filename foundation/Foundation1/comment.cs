@@ -2,7 +2,7 @@ public class Comment{
     private string commenter;
     private string comment;
 
-    public void comments()
+    public void display()
     {
         Console.WriteLine($"{commenter}");
         Console.WriteLine($"{comment}");
