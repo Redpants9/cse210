@@ -5,6 +5,6 @@ public class Assignment
     
     public string Getsummary()
     {
-        return "";
+        return $"{_studentname}:{_topic}";
     }
 }
