@@ -4,6 +4,13 @@ public class Writingassignment:Assignment
 
     public string Getwritinginformation()
     {
-        return _title;
+        string studentName = getname();
+
+        return $"{_title} by {studentName}";
+    }
+    public Writingassignment(string studentName, string topic, string title)
+        :base(studentName, topic)
+    {
+        _title = title;
     }
 }

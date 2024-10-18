@@ -5,6 +5,19 @@ public class Assignment
     
     public string Getsummary()
     {
-        return $"{_studentname}:{_topic}";
+        return _studentname + " - " + _topic;
+    }
+    public string getname()
+    {
+        return _studentname;
+    }
+    public string gettopic()
+    {
+        return _topic;
+    }
+    public Assignment(string studentName, string topic)
+    {
+        _studentname = studentName;
+        _topic = topic;
     }
 }
