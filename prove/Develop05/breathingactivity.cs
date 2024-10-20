@@ -1,11 +1,11 @@
 public class Breathingactivity:Activity
 {
-public void breathingactivity()
+public Breathingactivity()
 {
 
 }
-public void run()
+public void Run()
 {
-    
+
 }
 }
